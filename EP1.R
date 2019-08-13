@@ -57,7 +57,7 @@ EP1_USPnumber <- function(fIn, fOut){
       }
     }
     
-    #If there's edges on subgraph, there's no MST, the calculation thus ends
+    #If there are edges on subgraph, there is no MST, the calculation thus ends
     if (length(mEdges) == 0){
       return(Inf)
     }
